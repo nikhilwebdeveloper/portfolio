@@ -1,0 +1,244 @@
+/* font */
+@font-face{
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: CodaCaption-ExtraBold;
+}
+
+/* body */
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+
+/* top bar */
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#heading-name{
+    float: left;
+    color: #fdfdfd;
+    margin: 0;
+    font-size: 25px;
+}
+#social-icon{
+    float: right;
+}
+.fa-brands{
+    background-color: #fdfdfd;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+}
+.fa-whatsapp{
+    padding: 7px 9px;
+}
+.fa-instagram{
+    padding: 7px 9px;
+}
+
+/* Logo bar */
+#logobar img{
+    width: 150px;
+    margin: 25px 0px;
+}
+
+/* nav bar */
+
+#navbar{
+    background-color: #ee5253;
+}
+#navbar ul{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul li a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* poster */
+#poster{
+    background-image: url(../images/banner.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    /* font-size: 18px; */
+    font-size: 25px;
+    text-align: center;
+}
+
+/* why us */
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+#why-us-heading{
+    color: #ee5253;
+    text-align: center;
+    font: 35px;
+    margin-top: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+}
+.section33 h2{
+    color: #ee5253;
+}
+.section33 p{
+    color: #363636;
+}
+/* .section33 img{
+    width: 150px;
+} */
+
+
+/* contact section */
+#contact-container{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+}
+#contact-btn{
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* footer */
+#about-us{
+    background-color: #576574;
+    color: white;
+}
+#footer-about{
+    padding: 25px 5px;
+}
+#footer-about h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-size: 25px;
+}
+#footer-about p{
+    font-size: 25px;
+}
+#copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cdcdcd;
+    padding: 10px;
+}
+
+/* mobile menu  */
+#navbar ul #mobile-cross, #mobile-bar-btn{
+    display: none;
+}
+
+/* responsive mobile */
+@media only screen  and (max-width: 500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 26px;
+    }
+    #heading-name{
+        font-size: 15px;
+    }
+    .section33, .section70, .section30, .div33{
+        width: 100%;
+    }
+    .section70{
+        text-align: center;
+        padding-right: 0px;
+    }
+    .section30{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+/* mobile menu */
+@media only screen  and (max-width: 500px){
+    #navbar{
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li{
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        border-bottom: 1px solid grey;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-square-xmark{
+        font-size: 25px;
+    }
+    #navbar{
+        left: -280px;
+        transition: 0.3s ease;
+    }
+    #mobile-bar-btn{
+        background-color: #ee5253;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+    #navbar ul #mobile-cross, #mobile-bar-btn{
+        display: block;
+    }
+}
