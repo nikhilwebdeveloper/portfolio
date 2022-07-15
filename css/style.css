@@ -51,8 +51,13 @@ body{
 }
 
 /* Logo bar */
+#logobar{
+    background-color: #000000;
+}
 #logobar img{
-    width: 150px;
+    /* width: 150px; */
+    /* width: 800px; is wale me acha khasa bda img hain but latest wala use kiya  */
+    width: 500px;
     margin: 25px 0px;
 }
 
@@ -186,6 +191,10 @@ body{
 @media only screen  and (max-width: 500px){
     #logobar{
         text-align: center;
+        width: 322px;
+    }
+    #logobar img{
+        width: 328px;
     }
     #poster h1 {
         font-size: 26px;
