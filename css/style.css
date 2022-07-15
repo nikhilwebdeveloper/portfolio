@@ -191,7 +191,7 @@ body{
 @media only screen  and (max-width: 500px){
     #logobar{
         text-align: center;
-        width: 318px;
+        width: 310px;
     }
     #logobar img{
         width: 300px;
