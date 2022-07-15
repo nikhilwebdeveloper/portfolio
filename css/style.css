@@ -190,8 +190,8 @@ body{
 /* responsive mobile */
 @media only screen  and (max-width: 500px){
     #logobar{
-        text-align: center;
-        width: 310px;
+        /*text-align: center; */
+        width: 200px;
     }
     #logobar img{
         width: 300px;
