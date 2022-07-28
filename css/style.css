@@ -84,6 +84,7 @@ body{
 /* poster */
 #poster{
     background-image: url(../images/banner.jpg);
+    background-attachment: fixed;
     height: 500px;
     background-position: center;
     background-size: cover;
