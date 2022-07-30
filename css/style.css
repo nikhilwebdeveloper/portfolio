@@ -240,6 +240,13 @@ body{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    #profile-info{
+        /* font-size: 24; */
+        font-size: 15px;
+    }
+    #profile-info h3{
+        padding-left: 27px;
+    }
 }
 
 /* mobile menu */
