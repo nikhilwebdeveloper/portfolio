@@ -159,6 +159,31 @@ body{
     font-weight: bold;
 }
 
+/* profile section  */
+/* #profile-container{
+    border: 1px solid red;
+    margin: 0;
+} */
+#profile-name-header h1{
+    text-decoration: underline;
+}
+#profile-name-header{
+    text-align: center;
+    color: #ee5253;
+}
+#profile-info{
+    border-radius: 30px;
+    font-size: 30px;
+    background-color: #ee5253;
+    color: white;
+}
+#profile-info h3{
+    padding: 20px;
+    padding-left: 80px;
+    border-bottom: 3px solid white;
+}
+
+
 /* footer */
 #about-us{
     background-color: #576574;
