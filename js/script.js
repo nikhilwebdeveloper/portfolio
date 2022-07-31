@@ -5,3 +5,5 @@ function openMenu(){
 function closeMenu(){
     document.getElementById("navbar").style.left = "-280px";
 }
+
+alert("Hey Guys, Welcome to my page Thank you for visit my page keep loving and supporting 😍")
