@@ -225,41 +225,17 @@ body{
 }
 
 /* bar for html-skill  */
-.skill-bar p{
-    display: inline-block;
-    text-align: center;
-    color:white;
-    font-size: 23px;
-    background-color: rgb(41, 28, 234);
-    width: 100px;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-}
-
-.skill-bar div{
-    color:white;
-    display: inline-block;
-    background-color: rgb(190, 186, 246);
-    /* width: 60%; */
-    width: 828px;
-    height: 20px;
-    padding-top: 12px;
-    padding-bottom: 5px;
-    margin-left: -5px;
-}
-
-/* .skill-bar{
+.skill-bar-html{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.skill-bar h1{
+.skill-bar-html h1{
     color: white;
     display: inline;
     font-size: 25px;
 
 }
-.skill-bar div{
+.skill-bar-html div{
     font-weight: bolder;
     display: inline-block;
     background-color: rgb(236, 236, 236);
@@ -267,37 +243,67 @@ body{
     height: 17px;
     border-radius: 20px;
     margin-left: 15px;
-} */
-
-/* skill bars persents ids */
-#skill-bar-html div span{
+}
+.skill-bar-html div span{
     padding-left: 40%;
-    background-color: rgb(85, 74, 238);
+    background-color: deepskyblue;
     width: max-content;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    padding-right: 5px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
 
-#skill-bar-css div span{
+/* bar for css-skill */
+.skill-bar-javascript{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill-bar-css h1{
+    color: white;
+    display: inline;
+    font-size: 25px;
+
+}
+.skill-bar-css div{
+    font-weight: bolder;
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    width: 60%;
+    height: 17px;
+    border-radius: 20px;
+    margin-left: 32px;
+}
+.skill-bar-css div span{
     padding-left: 30%;
-    background-color: rgb(85, 74, 238);
+    background-color: deepskyblue;
     width: max-content;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
 
-#skill-bar-javascript div span{
+/* skill for JavaScript */
+.skill-bar-javascript{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skill-bar-javascript h1{
+    color: white;
+    display: inline;
+    font-size: 25px;
+
+}
+.skill-bar-javascript div{
+    font-weight: bolder;
+    display: inline-block;
+    background-color: rgb(236, 236, 236);
+    width: 60%;
+    height: 17px;
+    border-radius: 20px;
+    margin-left: 53px;
+}
+.skill-bar-javascript div span{
     padding-left: 1%;
-    background-color: rgb(85, 74, 238);
+    background-color: deepskyblue;
     width: max-content;
-    padding-top: 12px;
-    padding-bottom: 8px;
-    /* border-radius: 20px; */
+    border-radius: 20px;
 }
-
 
 
 /* footer */
@@ -368,31 +374,6 @@ body{
     }
     #profile-info p{
         padding-left: 27px;
-    }
-
-    /* skills */
-
-    .skill-bar p{
-        font-size: 15px;
-        width: 50px;
-    }
-    .skill-bar div{
-        width: 257px;
-        padding-top: 6px;
-        padding-bottom: 4px;
-    }
-    /* skill bars ids  */
-    #skill-bar-html div span{
-        padding-top: 5px;
-        padding-bottom: 6px;
-    }
-    #skill-bar-css div span{
-        padding-top: 5px;
-        padding-bottom: 6px;
-    }
-    #skill-bar-javascript div span{
-        padding-top: 5px;
-        padding-bottom: 6px;
     }
 }
 
