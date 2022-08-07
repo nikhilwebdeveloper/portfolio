@@ -20,7 +20,8 @@ body{
 
 /* top bar */
 #topbar{
-    background-color: #576574;
+    /* background-color: #576574; */
+    background-color: #ee5253;
     padding-top: 18px;
     padding-bottom: 18px;
     overflow: auto;
@@ -64,7 +65,8 @@ body{
 /* nav bar */
 
 #navbar{
-    background-color: #ee5253;
+    /* background-color: #ee5253; */
+    background-color: #1095fb;
 }
 #navbar ul{
     margin: 0;
@@ -76,10 +78,12 @@ body{
     padding-right: 35px;
 }
 #navbar ul li a{
+    text-transform: uppercase;
     color: #fdfdfd;
     text-decoration: none;
     font-size: 18px;
 }
+
 
 /* poster */
 #poster{
@@ -109,7 +113,8 @@ body{
     margin-bottom: 50px;
 }
 #why-us-heading{
-    color: #ee5253;
+    /* color: #ee5253; */
+    color: #1095fb;
     text-align: center;
     font: 35px;
     margin-top: 50px;
@@ -121,7 +126,8 @@ body{
     box-sizing: border-box;
 }
 .section33 h2{
-    color: #ee5253;
+    /* color: #ee5253; */
+    color: #1095fb;
 }
 .section33 p{
     color: #363636;
@@ -133,7 +139,8 @@ body{
 
 /* contact section */
 #contact-container{
-    background-color: #ee5253;
+    /* background-color: #ee5253; */
+    background-color: #1095fb;
     color: white;
     overflow: auto;
     padding-top: 20px;
@@ -151,7 +158,8 @@ body{
 }
 #contact-btn{
     background-color: white;
-    color: #ee5253;
+    /* color: #ee5253; */
+    color: #1095fb;
     padding: 15px 50px;
     text-decoration: none;
     border-radius: 8px;
@@ -176,14 +184,18 @@ body{
 }
 
 #profile-name-header{
-    color: #ee5253;
+    /* color: #ee5253; */
+    color: #1095fb;
 }
 
 /* profile-infos  */
 #profile-info{
-    border-radius: 30px;
+    /* border-radius: 30px; */
+    /* border-radius: 0px 160px; */
+    border-radius: 30px 30px 0px 0px;
     font-size: 30px;
-    background-color: #ee5253;
+    /* background-color: #ee5253; */
+    background-color: #1095fb;
     color: white;
     padding-top: 20px;
     /* padding-bottom: 20px; */
@@ -197,7 +209,8 @@ body{
 }
 #profile-info h3{
     margin: 0;
-    color: rgb(28, 26, 26);
+    /* color: rgb(28, 26, 26); */
+    color: white;
     /* padding: 20px; */
     /* padding-left: 80px; */
     /* border-bottom: 3px solid white; */
@@ -214,10 +227,13 @@ body{
 
 /* skill header  */
 #skill-container{
-    background-color: #ee5253;
+    /* background-color: #ee5253; */
+    background-color: #1095fb;
+    margin-top: -10px;
 }
 #skill-header{
-    background-color: #576574;
+    /* background-color: #576574; */
+    background-color:#ee5253;
     text-align: center;
 }
 #skill-header h1{
@@ -246,16 +262,14 @@ body{
 }
 .skill-bar-html div span{
     padding-left: 40%;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
+    background-color:#ee5253;
     width: max-content;
     border-radius: 20px;
 }
 
 /* bar for css-skill */
-.skill-bar-javascript{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 .skill-bar-css h1{
     color: white;
     display: inline;
@@ -273,7 +287,8 @@ body{
 }
 .skill-bar-css div span{
     padding-left: 30%;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
+    background-color:#ee5253;
     width: max-content;
     border-radius: 20px;
 }
@@ -300,7 +315,8 @@ body{
 }
 .skill-bar-javascript div span{
     padding-left: 1%;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
+    background-color:#ee5253;
     width: max-content;
     border-radius: 20px;
 }
@@ -404,7 +420,8 @@ body{
         transition: 0.3s ease;
     }
     #mobile-bar-btn{
-        background-color: #ee5253;
+        /* background-color: #ee5253; */
+        background-color: #1095fb;
         color: white;
         padding: 18px;
         font-size: 28px;
