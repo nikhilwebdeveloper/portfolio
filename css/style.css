@@ -82,6 +82,25 @@ body{
     color: #fdfdfd;
     text-decoration: none;
     font-size: 18px;
+    /* position: relative;
+    top: -10px; */
+}
+
+#a1:hover{
+    position: relative;
+    top: -5px;
+}
+#a2:hover{
+    position: relative;
+    top: -5px;
+}
+#a3:hover{
+    position: relative;
+    top: -5px;
+}
+#a4:hover{
+    position: relative;
+    top: -5px;
 }
 
 
@@ -352,6 +371,15 @@ body{
 }
 
 /* responsive mobile */
+
+/* poster responsive */
+@media only screen  and (max-width: 865px){
+    #logobar img{
+        width: 438px;
+    }
+}
+
+/* other responsive */
 @media only screen  and (max-width: 500px){
     #logobar{
         text-align: center;
@@ -360,7 +388,8 @@ body{
         width: 200px;
     }
     #poster h1 {
-        font-size: 26px;
+        /* font-size: 26px; */
+        font-size: 25px;
     }
     #heading-name{
         font-size: 15px;
