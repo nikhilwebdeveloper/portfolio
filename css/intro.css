@@ -1,0 +1,52 @@
+/* @keyframes border */
+body{
+    overflow-y: hidden;
+    /* filter: brightness(20px); */
+}
+#intro-container{
+    position: fixed;
+    /* width: 500px;
+    height: 350px; */
+    left: 31%;
+    top: 77px;
+}
+#intro{
+    /* position: absolute; */
+    text-align: center;
+    color: aliceblue;
+    background-color:coral;
+    border: 8px solid whitesmoke;
+    width: 552px;
+    height: 354px;
+    /* left: 34%;
+    top: 77px; */
+    font-size: 19px;
+    padding: 0px 10px;
+}
+#intro-close-btn{
+    background-color: coral;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    border-top: 0px;
+    color: aliceblue;
+    position: absolute;
+    bottom: -39px;
+    right: 0px;
+    font-size: 30px;
+}
+#intro-close-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* intro responsive */
+@media only screen  and (max-width: 500px){
+    #intro{
+        width: 222px;
+        height: 451px;
+    }
+    #intro-container{
+        left: 16%;
+        top: 126px;
+    }
+}
