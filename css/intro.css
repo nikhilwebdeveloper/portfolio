@@ -1,27 +1,43 @@
-/* @keyframes border */
+/* @keyframes border {
+    0% { border-color: whitesmoke; color: whitesmoke; }
+    10% { border-color:crimson; color: crimson; }
+    25% { border-color:blueviolet; color: blueviolet; }
+    50% { border-color:cadetblue; color: cadetblue; }
+    75% { border-color:cornflowerblue; color: cornflowerblue; }
+    100% { border-color:deepskyblue; color: deepskyblue; }
+
+} */
 body{
     overflow-y: hidden;
-    /* filter: brightness(20px); */
 }
+
+#dark-bg{
+    position: absolute;
+    background-image: url(../images/intro_dark_bg.png);
+    width: 100%;
+    height: 100vh;
+    
+}
+
 #intro-container{
+    /* display: none; */
     position: fixed;
-    /* width: 500px;
-    height: 350px; */
     left: 31%;
     top: 77px;
 }
 #intro{
-    /* position: absolute; */
     text-align: center;
     color: aliceblue;
     background-color:coral;
     border: 8px solid whitesmoke;
+    border-radius: 20px;
     width: 552px;
     height: 354px;
-    /* left: 34%;
-    top: 77px; */
     font-size: 19px;
     padding: 0px 10px;
+    animation-name: border;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 #intro-close-btn{
     background-color: coral;
@@ -31,7 +47,7 @@ body{
     color: aliceblue;
     position: absolute;
     bottom: -39px;
-    right: 0px;
+    right: 11px;
     font-size: 30px;
 }
 #intro-close-btn:hover{
